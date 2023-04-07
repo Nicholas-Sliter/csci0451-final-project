@@ -12,9 +12,10 @@ Low quality reviews present a challenge to the value of review-based sites. We w
 We want to determine the estimated quality of reviews on MiddCourses to improve user experience. Low quality reviews provide little (or even negative) value to users. This in turn decreases the value of MiddCourses as a whole. A **classifier** for automatically detecting such reviews would be useful for sorting tasks and as a potential flag to make finding fraudulent reviews easier.
 
 Such reviews can take several forms:
-Low-effort reviews where the reviewer put limited time into accurately reviewing the course. This is characterized by many sliders and values left at default positions and a short and general review content.
-Fraudulent reviews where the reviewer never took the indicated course. This is often characterized by randomness or conflicting features in the review and very general text.
-Overly-negative (hyperbolic) or review bombing reviews that offer a very limited negative perspective on a course/instructor that is unlikely to be accurate.
+
+1. Low-effort reviews where the reviewer put limited time into accurately reviewing the course. This is characterized by many sliders and values left at default positions and a short and general review content.
+2. Fraudulent reviews where the reviewer never took the indicated course. This is often characterized by randomness or conflicting features in the review and very general text.
+3. Overly-negative (hyperbolic) or review bombing reviews that offer a very limited negative perspective on a course/instructor that is unlikely to be accurate.
 
 We will approach this problem by experimenting with feature engineering and NLP-methods to find a set of features which would be effective in classifying reviews based on quality and creating a classification model that would accurately predict review quality using the feature set.
 
