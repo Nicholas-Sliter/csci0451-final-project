@@ -72,10 +72,28 @@ equally interesting as prediction. I have mentioned in my goal-setting that the 
 would give me an opportunity to do so. Since we will be using real data for this project, it will definitely help me with the practical element of implementation. It will also allow me 
 to dig deeper into the topic of NLP (natural language processing). 
 
-
-
-
-
+### Aidan:
+My goal throughout this project is to gain a deeper understanding on the various options for NLP algorithms and feature extraction in terms of text classification. Furthermore, I hope to get a better understanding of the machine learning workflow and collaborative projects through GitHub and Jupyter or VSCode. 
 
 ## Risk Statement:
+
 It might be possible that we cannot find features that distinguish low-quality and high-quality reviews. We might not have enough data (~1600 reviews) or enough data balance to make inferences. It might also be possible that our model systematically underperforms for certain groups in a way that makes its implementation unacceptable. We will also need to carefully consider model and pipeline performance to ensure our pipeline and inference can run in production.
+
+## Ethics Statement:
+
+We are assuming that students would be benefited by being presented with higher quality reviews. Likewise professors would benefit by having higher quality reviews of their classes shown first.
+
+It is possible that certain groups of students would be systematically deranked because of the features we decide are relevant. This could be especially true if we decide to opt for using NLP to decide features because it may prefer "standard" dialects of English.
+
+Certainly professors may also be systematically affected negatively because our algorithm may present reviews that are more negative than reality if it views them as high quality.
+
+Conversely, if it presents reviews that are more positive than reality, students may be impacted by being more likely to take a course with a professor they might not enjoy.
+
+And we know from external research that reviews are biased against certain groups of people (women, people of color, etc). So our initial training data may be biased. We hope our annotation method would remove some of this bias.
+
+We believe that our model will make the world (Middlebury) a better place. By identifying high and low quality reviews on MiddCourses we hope to make it easier for Middlebury students to find high quality information on the courses they are searching for. And therefore improve their ability to find courses they will enjoy. This belief assumes that:
+
+1. Higher quality reviews lead to better outcomes for students.
+2. Our classification of reviews is fair and does not unduly discriminate or disadvantage specific groups of students.
+
+Furthermore, our model will never remove reviews, it will be used for sorting on individual pages. This means it will not restrict speech but it may change initial impressions of courses.
