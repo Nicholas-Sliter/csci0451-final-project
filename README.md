@@ -97,3 +97,11 @@ We believe that our model will make the world (Middlebury) a better place. By id
 2. Our classification of reviews is fair and does not unduly discriminate or disadvantage specific groups of students.
 
 Furthermore, our model will never remove reviews, it will be used for sorting on individual pages. This means it will not restrict speech but it may change initial impressions of courses.
+
+## Tentative Timeline:
+
+-Week 8: Annotation tool & fully annotate the data
+-Week 9: Feature pipeline & engineering
+-Week 10: Feature pipeline & feature selection
+-Week 11: Building classifiers
+-Week 12: Blog posts, slides, and presentations
