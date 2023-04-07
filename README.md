@@ -29,3 +29,21 @@ We hope to also implement a production pipeline and export the trained classifie
 
 
 We will measure how our model stacks up against our goal by measuring its accuracy on an annotated test data set. We will carefully consider model sensitivity and specificity. Since we do not have demographic data on any reviews, it will not be possible to check our model’s bias against demographic factors.
+
+
+## Planned Deliverables:
+### We intend to deliver:
+annotated data
+feature pipeline (python/js)
+classifier (python)
+jupyter notebook to explore model
+
+
+### Full success:
+feature pipeline and classifier implemented in production on MiddCourses
++ all below content
+### Partial success:
+annotated data
+feature pipeline in python
+classifiers in python
+notebook that explores the model
