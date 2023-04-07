@@ -44,7 +44,7 @@ We will measure how our model stacks up against our goal by measuring its accura
 ### Full success:
 
 - feature pipeline and classifier implemented in production on MiddCourses
-- + all below content
+- \+ all below content
 
 ### Partial success:
 
@@ -58,3 +58,19 @@ We will measure how our model stacks up against our goal by measuring its accura
 - Data: https://midd.courses/
 - Computing power: laptops
 - Account: MiddCourses + 2 written reviews (for accessing annotation tool)
+
+
+## What You Will Learn:
+
+### Nich:
+I will research and implement NLP algorithms for feature extraction. I will work on EDA and model evaluation during feature selection steps. And I will work effectively in a group of 3. 
+While this project does not directly fit into my suggested interests: recsys, information retrieval, ranking, and network algorithms, I still have strong interest in this project.
+
+
+
+
+
+
+
+## Risk Statement:
+It might be possible that we cannot find features that distinguish low-quality and high-quality reviews. We might not have enough data (~1600 reviews) or enough data balance to make inferences. It might also be possible that our model systematically underperforms for certain groups in a way that makes its implementation unacceptable. We will also need to carefully consider model and pipeline performance to ensure our pipeline and inference can run in production.
