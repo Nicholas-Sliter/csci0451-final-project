@@ -32,18 +32,29 @@ We will measure how our model stacks up against our goal by measuring its accura
 
 
 ## Planned Deliverables:
+
 ### We intend to deliver:
-annotated data
-feature pipeline (python/js)
-classifier (python)
-jupyter notebook to explore model
+
+- annotated data
+- feature pipeline (python/js)
+- classifier (python)
+- jupyter notebook to explore model
 
 
 ### Full success:
-feature pipeline and classifier implemented in production on MiddCourses
-+ all below content
+
+- feature pipeline and classifier implemented in production on MiddCourses
+- + all below content
+
 ### Partial success:
-annotated data
-feature pipeline in python
-classifiers in python
-notebook that explores the model
+
+- annotated data
+- feature pipeline in python
+- classifiers in python
+- notebook that explores the model
+
+## Resources Required:
+
+- Data: https://midd.courses/
+- Computing power: laptops
+- Account: MiddCourses + 2 written reviews (for accessing annotation tool)
