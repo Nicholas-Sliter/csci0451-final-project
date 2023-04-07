@@ -66,6 +66,11 @@ We will measure how our model stacks up against our goal by measuring its accura
 I will research and implement NLP algorithms for feature extraction. I will work on EDA and model evaluation during feature selection steps. And I will work effectively in a group of 3. 
 While this project does not directly fit into my suggested interests: recsys, information retrieval, ranking, and network algorithms, I still have strong interest in this project.
 
+### Paul: 
+In the reflective goal-setting assignment, my original goal was to do a project on prediction. However, I believe that classification is an important topic in machine learning that is 
+equally interesting as prediction. I have mentioned in my goal-setting that the implementation aspect of machine learning is what I would like to focus on, and I think that this project 
+would give me an opportunity to do so. Since we will be using real data for this project, it will definitely help me with the practical element of implementation. It will also allow me 
+to dig deeper into the topic of NLP (natural language processing). 
 
 
 
