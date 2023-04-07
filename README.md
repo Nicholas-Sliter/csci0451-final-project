@@ -100,8 +100,8 @@ Furthermore, our model will never remove reviews, it will be used for sorting on
 
 ## Tentative Timeline:
 
--Week 8: Annotation tool & fully annotate the data
--Week 9: Feature pipeline & engineering
--Week 10: Feature pipeline & feature selection
--Week 11: Building classifiers
--Week 12: Blog posts, slides, and presentations
+- Week 8: Annotation tool & fully annotate the data
+- Week 9: Feature pipeline & engineering
+- Week 10: Feature pipeline & feature selection
+- Week 11: Building classifiers
+- Week 12: Blog posts, slides, and presentations
