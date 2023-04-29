@@ -10,7 +10,7 @@ reviewVoteSum AS (
     WHERE "Vote"."votedBy" IN (SELECT * FROM annotatorsIDs)
     GROUP BY "Vote"."reviewID"
 )
-SELECT "votes",
+SELECT COALESCE(votes,0) as "votes",
        "Review"."reviewID", 
        "reviewDate", 
        "courseID", 
@@ -30,7 +30,18 @@ SELECT "votes",
        "instructorAccommodationLevel",
        "instructorEnjoyed",
        "instructorAgain",
-       "content"
+       
+        -- Check if user had 2 reviews within 6 months (in past) of this review
+        CASE WHEN EXISTS (
+            SELECT *
+            FROM "Review" AS "Review2"
+            WHERE "Review2"."reviewerID" = "Review"."reviewerID"
+            AND "Review2"."reviewDate" <= "Review"."reviewDate"
+            AND "Review2"."reviewDate" >= "Review"."reviewDate" - INTERVAL '6 months'
+            AND "Review2"."reviewID" != "Review"."reviewID"
+        ) THEN 1 ELSE 0 END AS "wasAuthorized",
+
+        "content"
 FROM "Review"
 LEFT JOIN reviewVoteSum ON "Review"."reviewID" = reviewVoteSum."reviewID"
 WHERE "Review"."reviewDate" <= timestamp '2023-04-21 18:09:01.856+00'
